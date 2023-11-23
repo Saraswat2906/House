@@ -8,6 +8,10 @@ Original file is located at
 
 <H1>  Install the packages
 """
+import subprocess
+
+
+subprocess.run(['pip', 'install', 'pandas', 'numpy', 'seaborn', 'matplotlib', 'pycaret'])
 
 !pip install pandas numpy seaborn matplotlib pycaret
 
